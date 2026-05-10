@@ -1,6 +1,6 @@
-# [Project name]
+# FitMorph AI
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A premium AI-powered fitness and body transformation mobile app built with Expo React Native.
 
 ## Run & Operate
 
@@ -14,31 +14,50 @@ _Replace the heading above with the project's name, and this line with one sente
 ## Stack
 
 - pnpm workspaces, Node.js 24, TypeScript 5.9
+- Mobile: Expo SDK 54, Expo Router (file-based routing)
+- UI: React Native, LinearGradient, BlurView, Reanimated
+- State: AsyncStorage (local), React Query (server)
 - API: Express 5
 - DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
 - Build: esbuild (CJS bundle)
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/mobile/` — Expo mobile app
+- `artifacts/mobile/app/` — file-based routes (Expo Router)
+- `artifacts/mobile/components/` — shared UI components (GlassCard, GradientButton, StatCard, ProgressRing, WorkoutCard)
+- `artifacts/mobile/context/AppContext.tsx` — global state (user profile, stats, chat, meals, weight log)
+- `artifacts/mobile/constants/colors.ts` — brand color tokens (dark + light)
+- `artifacts/mobile/assets/images/` — app icon, hero-bg, body-scan
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- Dark mode forced via `userInterfaceStyle: "dark"` in app.json and background color `#07070E`
+- Glassmorphism cards use `expo-blur` BlurView + `rgba` background layering
+- All data is persisted to AsyncStorage — no backend needed for first build
+- AI coach uses client-side pattern matching for fitness responses (upgradeable to real LLM)
+- Onboarding flow uses stack navigation; main app uses 5-tab layout
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+FitMorph AI helps users transform their bodies using:
+1. **Welcome + Onboarding** — cinematic dark intro, goal selection (Fat Loss / Muscle / Lean / Athletic / Six-Pack), body type selection (Ecto / Meso / Endo), AI analysis animation
+2. **Dashboard** — body score ring, calorie/protein/water stats, AI insight card, quick actions, today's workout, macro summary
+3. **Workout Planner** — 6 pre-built plans, category filter (All / Strength / HIIT / Fat Loss / Mobility / Home), expandable exercise lists with start button
+4. **AI Coach Chat** — inverted FlatList chat UI, pattern-matched AI responses, quick suggestion chips
+5. **Nutrition Tracker** — calorie ring, macro tracking (protein/carbs/fat), water glass tracker, meal log, quick-add meal sheet
+6. **Progress Tracker** — body score, weight trend chart (SVG), body stats grid, goal progress bar, achievement badges, photo comparison CTA
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+- Dark mode default with premium aesthetic
+- Design: glassmorphism + gradient accents, neon purple (#8B5CF6) + electric cyan (#06B6D4) + pink (#EC4899)
+- Target audience: Gen Z / Millennials, beginners, South Asian users
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- `useNativeDriver: true` animations fall back to JS on web (harmless warning)
+- Run `pnpm install` before restarting the mobile workflow if node_modules are missing
 
 ## Pointers
 

@@ -1,0 +1,316 @@
+Create a modern, premium AI-powered fitness and body transformation mobile app called “FitMorph AI”.
+
+The app should feel like a mix of:
+
+* luxury fitness coach
+* futuristic AI assistant
+* social transformation platform
+* personalized health companion
+
+Design style:
+
+* ultra modern
+* glassmorphism + soft shadows
+* smooth gradients
+* clean typography
+* highly polished UI/UX
+* cinematic visuals
+* mobile-first
+* dark mode default
+* premium animations
+* Apple-level polish
+* minimal but powerful
+
+Target audience:
+
+* beginners
+* skinny users wanting muscle gain
+* fat loss users
+* home workout users
+* South Asian audience support
+* Gen Z + Millennials
+
+Main Goal:
+Help users transform their body using AI-generated plans, body analysis, transformation previews, nutrition guidance, and progress tracking.
+
+---
+
+## CORE FEATURES
+
+1. AI BODY SCAN
+
+* User uploads front + side body photos
+* AI analyzes:
+
+  * body fat estimate
+  * posture
+  * muscle balance
+  * BMI
+  * fitness level
+  * weak areas
+* Generate full body report
+* Show confidence score
+* Highlight body zones visually
+
+2. AI TRANSFORMATION PREVIEW
+
+* Generate realistic 30-day, 60-day, 90-day transformation previews
+* Slider comparison:
+
+  * before vs after
+* Cinematic transformation animation
+* Multiple goals:
+
+  * fat loss
+  * lean body
+  * muscle gain
+  * six-pack
+  * athletic
+* AI should avoid unrealistic fake transformations
+
+3. SMART AI FITNESS COACH
+
+* ChatGPT-style fitness assistant
+* Personalized responses
+* Daily motivation
+* Workout corrections
+* Meal guidance
+* Beginner-friendly explanations
+* Voice support
+* Multi-language support:
+
+  * English
+  * Urdu
+  * Hindi
+
+4. PERSONALIZED WORKOUT ENGINE
+   Generate workouts based on:
+
+* home/gym
+* available equipment
+* injuries
+* fitness level
+* schedule
+* goal
+
+Workout categories:
+
+* strength
+* fat loss
+* HIIT
+* mobility
+* calisthenics
+* home workouts
+* beginner plans
+
+5. AI NUTRITION SYSTEM
+
+* Meal recommendations
+* South Asian diet support
+* Budget meal plans
+* Protein calculator
+* Calorie tracking
+* Food image calorie scanner
+* Water tracking
+* Macro tracking
+
+6. DAILY TRANSFORMATION DASHBOARD
+   Show:
+
+* streaks
+* calories
+* protein
+* workouts completed
+* weight progress
+* body score
+* sleep tracking
+* AI recommendations
+
+7. PROGRESS TIMELINE
+
+* Transformation journey
+* Weekly photo comparisons
+* Weight graph
+* AI insights
+* Achievement badges
+* Motivational milestones
+
+8. AI MOTIVATION SYSTEM
+
+* Dynamic motivational quotes
+* Voice encouragement
+* Transformation reminders
+* Smart notifications
+* “You’re 18% closer to your goal”
+
+9. SOCIAL & VIRAL FEATURES
+
+* Share transformation reels
+* AI-generated transformation videos
+* Fitness leaderboard
+* Community challenges
+* Social badges
+* Referral rewards
+
+10. PREMIUM FEATURES
+
+* AI coach voice calls
+* Advanced analytics
+* Custom meal plans
+* Celebrity-style body goals
+* Smart wearable integration
+* Recovery tracking
+
+---
+
+## ADVANCED UI/UX REQUIREMENTS
+
+* Smooth micro-interactions
+* Animated onboarding
+* Swipe gestures
+* Floating AI assistant button
+* Dynamic gradients
+* Parallax scrolling
+* Real-time loading animations
+* Interactive charts
+* 3D body visualization
+* Glass cards
+* Neumorphism elements
+* Smooth transitions
+* Haptic feedback feel
+* Futuristic dashboard
+
+---
+
+## ONBOARDING FLOW
+
+1. Welcome screen
+2. Goal selection
+3. Body type selection
+4. Upload body photos
+5. Fitness level quiz
+6. AI analysis loading animation
+7. Personalized dashboard generated
+
+---
+
+## APP SCREENS
+
+* Splash screen
+* Login/signup
+* AI onboarding
+* Dashboard
+* AI coach chat
+* Workout planner
+* Meal planner
+* Progress tracker
+* Body scan report
+* Transformation preview
+* Community feed
+* Notifications
+* Profile/settings
+* Subscription page
+
+---
+
+## VISUAL STYLE
+
+Colors:
+
+* black
+* deep blue
+* neon purple
+* electric cyan
+* gradient pink accents
+
+Typography:
+
+* futuristic
+* bold headings
+* clean readable body text
+
+Mood:
+
+* motivating
+* futuristic
+* premium
+* energetic
+* emotionally engaging
+
+---
+
+## AI FEATURES
+
+Integrate:
+
+* computer vision
+* AI chat assistant
+* recommendation engine
+* transformation image generation
+* calorie estimation AI
+* posture analysis AI
+* predictive body progress AI
+
+---
+
+## MONETIZATION
+
+Freemium model:
+
+* free basic plan
+* premium monthly subscription
+* yearly plan
+* transformation credits
+* AI coach premium
+
+---
+
+## EXTRA PREMIUM IDEAS
+
+* AI outfit suggestions after transformation
+* AI face glow-up predictions
+* AI confidence score
+* AI gym buddy matching
+* AI voice trainer
+* Smart wearable sync
+* AI-generated fitness reels
+* Sleep optimization AI
+* Mood + energy tracking
+
+---
+
+## IMPORTANT
+
+The app must feel:
+
+* addictive
+* emotional
+* premium
+* motivating
+* futuristic
+* easy for beginners
+* visually stunning
+* social-media friendly
+
+Design should be production-level, startup-quality, investor-ready, App Store quality UI/UX.
+
+Use modern mobile app design patterns from:
+
+* Apple Fitness
+* Nike Training Club
+* Whoop
+* Duolingo onboarding psychology
+* futuristic AI assistants
+
+Generate:
+
+* complete UI design
+* UX flow
+* component system
+* responsive mobile screens
+* animations
+* app architecture
+* AI interaction logic
+* premium onboarding experience
+* scalable design system
+* modern SaaS fitness branding.
